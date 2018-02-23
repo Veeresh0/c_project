@@ -1,5 +1,5 @@
-nclude <stdio.h>
-int main()
+#include <stdio.h>
+fact()
 {
     int n, i;
     unsigned long long factorial = 1;

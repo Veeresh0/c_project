@@ -1,5 +1,5 @@
-nclude <stdio.h>
-int main()
+#include <stdio.h>
+polindram()
 {
     int n, reversedInteger = 0, remainder, originalInteger;
 
