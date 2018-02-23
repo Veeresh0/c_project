@@ -4,8 +4,6 @@ main.o:main.c
 	gcc -c main.c
 fact.o:fact.c
 	gcc -c fact.c
-small.o:small.c
-	gcc -c small.c
 revers.o:revers.c
 	gcc -c revers.c
 
