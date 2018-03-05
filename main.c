@@ -1,4 +1,6 @@
 #include <stdio.h>
 main(){
-fact();
+hello();
+com();
+simple();
 }
