@@ -1,6 +1,10 @@
-ABC.exe:main.o fact.o
-	gcc -o ABC.exe main.o fact.o
+veeru.exe:main.o hello.o com.o simple.o
+	gcc -o veeru.exe main.o hello.o com.o simple.o
 main.o:main.c
-	gcc -c main.c
-fact.o:fact.c
-	gcc -c fact.c
+	gcc -c trigger.c
+hello.o:hello.c
+	gcc -c hello.c
+com.o:com.c
+	gcc -c com.c
+simple.o:simple.c
+	gcc -c simple.c
