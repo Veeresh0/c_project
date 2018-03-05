@@ -2,5 +2,4 @@
 main(){
 hello();
 com();
-simple();
 }
